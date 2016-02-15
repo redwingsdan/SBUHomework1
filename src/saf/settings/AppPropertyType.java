@@ -20,6 +20,7 @@ public enum AppPropertyType {
         SAVE_ICON,
 	SAVE_AS_ICON,
         EXIT_ICON,
+        REMOVE_ICON,
         
         // APPLICATION TOOLTIPS FOR BUTTONS
         NEW_TOOLTIP,
@@ -27,6 +28,7 @@ public enum AppPropertyType {
 	SAVE_AS_TOOLTIP,
 	EXPORT_TOOLTIP,
         EXIT_TOOLTIP,
+        REMOVE_TOOLTIP,
 	
 	// ERROR MESSAGES
 	NEW_ERROR_MESSAGE,

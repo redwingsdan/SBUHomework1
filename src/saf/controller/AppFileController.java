@@ -196,6 +196,7 @@ public class AppFileController {
                 dialog.show(props.getProperty(SAVE_ERROR_TITLE), props.getProperty(SAVE_ERROR_MESSAGE));
         }
     }
+    
 
     /**
      * This helper method verifies that the user really wants to save their

@@ -47,6 +47,7 @@ public class AppGUI implements AppStyleArbiter {
     protected Button newButton;
     protected Button saveButton;
     protected Button exitButton;
+    protected Button removeButton;
     
     // HERE ARE OUR DIALOGS
     protected AppYesNoCancelDialogSingleton yesNoCancelDialog;
@@ -148,7 +149,7 @@ public class AppGUI implements AppStyleArbiter {
         });
         exitButton.setOnAction(e -> {
             fileController.handleExitRequest();
-        });	
+        });
     }
 
     // INITIALIZE THE WINDOW (i.e. STAGE) PUTTING ALL THE CONTROLS
@@ -231,5 +232,6 @@ public class AppGUI implements AppStyleArbiter {
 	newButton.getStyleClass().add(CLASS_FILE_BUTTON);
 	saveButton.getStyleClass().add(CLASS_FILE_BUTTON);
 	exitButton.getStyleClass().add(CLASS_FILE_BUTTON);
+        
     }
 }
