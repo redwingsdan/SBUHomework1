@@ -29,7 +29,7 @@ import xml_utilities.InvalidXMLFileFormatException;
  * component.
  * 
  * @author Richard McKenna
- * @author ?
+ * @author Daniel Peterson
  * @version 1.0
  */
 public abstract class AppTemplate extends Application {

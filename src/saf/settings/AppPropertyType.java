@@ -5,7 +5,7 @@ package saf.settings;
  * XML files to be used for setting up the application.
  * 
  * @author Richard McKenna
- * @author ?
+ * @author Daniel Peterson
  * @version 1.0
  */
 public enum AppPropertyType {
